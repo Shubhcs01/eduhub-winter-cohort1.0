@@ -3,7 +3,7 @@
   font-style: normal;
   color: black;
   height: 57vw;
-  background: #ffdab8;
+  background: #476293;
 }
 .mentors_heading {
   font-size: 3.33vw;
@@ -13,7 +13,7 @@
   padding-top: 2.5rem;
 }
 .mentors-underline {
-  border-top: 0.14vw solid #eb5310;
+  border-top: 0.14vw solid white;
   width: 13vw;
   height: 0px;
   margin-left: 10.3vw;

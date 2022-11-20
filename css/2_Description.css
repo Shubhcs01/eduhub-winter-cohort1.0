@@ -2,7 +2,7 @@
   font-weight: bold;
   font-size: 2.1vw;
   color: black;
-  background: #ffba7a;
+  background: #FEFFFE;
   display: flex;
   height: 49.44vw;
 }
@@ -26,7 +26,7 @@
   margin: 0;
 }
 .underline {
-  border-top: 0.14vw solid #eb5310;
+  border-top: 0.14vw solid #476293;
   width: 13vw;
   height: 0px;
 }
@@ -75,7 +75,7 @@
   .underline{
     margin-top: 1rem;
     width: 70%;
-    border-top: .5vw solid #eb5310;
+    border-top: .5vw solid #476293;
   }
   .description-heading{
     font-size: 8vw;
