@@ -5,7 +5,7 @@
   width: 100%;
   height: auto;
   left: 0vw;
-  background: #ffdab8;
+  background: #476293;
   padding-bottom: 9.09vw;
 }
 
@@ -22,7 +22,7 @@
   font-size: 3.33vw; /* 	48/1440 */
   line-height: 3.95vw; /* 	57/1440 */
 
-  color: #000000;
+  color: white;
   z-index: 2;
 }
 

@@ -6,7 +6,7 @@
   font-weight: 500;
   font-size: 1.11vw;
   line-height: 1.31vw;
-  color: #fbfae0;
+  color: #0a0a09;
 }
 
 .Header_navbar {
@@ -15,11 +15,11 @@
   align-items: center;
   justify-content: space-between;
   /* padding: 20px; */
-  background: #1c1c1c;
+  background: #F6F6FE;
   height: 5.55vw;
   width: 100%;
   z-index: 1000;
-  /* color: #fff; */
+  color: #fff;
 }
 
  .Header_logo1 {
@@ -69,7 +69,7 @@
   background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/1_Header_Dot.png")
     no-repeat;
   background-size: contain;
-  background: #eb5310;
+  background: #476293;
   border-radius: 50%;
 }
 
@@ -83,7 +83,7 @@
   background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/1_Header_Dot.png")
     no-repeat;
   background-size: contain;
-  background: #eb5310;
+  background: #476293;
   border-radius: 50%;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .ABOUT_US a:hover {
-  color: #eb5310 !important;
+  color: #476293 !important;
 }
 
 .COURSES {
@@ -100,7 +100,7 @@
 }
 
 .COURSES a:hover {
-  color: #eb5310 !important;
+  color: #476293 !important;
 }
 
 .FAQ {
@@ -108,7 +108,7 @@
 }
 
 .FAQ a:hover {
-  color: #eb5310 !important;
+  color: #476293 !important;
 }
 
 .TEAM {
@@ -116,7 +116,7 @@
 }
 
 .TEAM a:hover {
-  color: #eb5310 !important;
+  color: #476293 !important;
 }
 
 .CONTACT {
@@ -124,7 +124,7 @@
 }
 
 .CONTACT a:hover {
-  color: #eb5310 !important;
+  color: #476293 !important;
 }
 
 /* .PARTNER_WITH_US {
@@ -133,24 +133,24 @@
   padding-left: 0.48vw;
   padding-top: 0.7vw;
   padding-right: 0.48vw;
-  border: 0.13vw solid #eb5310;
+  border: 0.13vw solid #476293;
   box-sizing: border-box;
   border-radius: 0.48vw;
 } */
 
 /* .PARTNER_WITH_US:hover {
-  background: #eb5310;
+  background: #476293;
   color: #fbfae0;
 } */
 
 /* .PARTNER_WITH_US_PARTNER {
-  background: #eb5310;
+  background: #476293;
   margin-top: 1.59vw;
   padding-bottom: 0.5vw;
   padding-left: 0.48vw;
   padding-top: 0.7vw;
   padding-right: 0.48vw;
-  border: 0.13vw solid #eb5310;
+  border: 0.13vw solid #476293;
   box-sizing: border-box;
   border-radius: 0.48vw;
 } */
@@ -194,7 +194,7 @@
   }
   /* .hamMenu:hover span:nth-child(2){
 	  transform: translateX(1vw);
-	  background-color: #eb5310;
+	  background-color: #476293;
   } */
   .hamMenu.active span:nth-child(1) {
     transform: translate(0vw, 0.5vw) rotate(45deg);
@@ -205,7 +205,7 @@
   .hamMenu.active span:nth-child(2) {
     opacity: 0;
     transform: translateX(8vw);
-    background-color: #eb5310;
+    background-color: #476293;
   }
   .Header_navbar {
     display: block;
@@ -223,7 +223,7 @@
     left: -100%;
     margin: 0;
     z-index: -1;
-    border-bottom: 1vw solid #eb5310;
+    border-bottom: 1vw solid #476293;
 	transition: left 1s ease-in-out;
   }
   /* .PARTNER_WITH_US {
