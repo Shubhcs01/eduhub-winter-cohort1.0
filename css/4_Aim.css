@@ -8,7 +8,7 @@
 }
 .aim{
 	background-color: #476293;
-	height:57.98vw; /*600px*/
+	height:39.98vw; /*600px*/
 	display: flex;
 	padding: 30px;
 	justify-content: space-between;
@@ -42,24 +42,19 @@
 .aim-content{
 	position: absolute;
 	left:16.77%;
-	top:15.63vw;
+	top:5.63vw;
 }
 
-.aim-content ul li{
-	padding: 10px;
-	font-size: 20px;
+.aim p {
+	line-height: 30px;
+    font-size: 1.4vw;
+    font-weight: 400;
 }
-
-
-/* .aim p{
-	font-size: 1.1vw;
-	font-weight: 400;
-} */
 .aim-img{
 	width:40.37vw;
 	position: absolute;
 	right:4.36vw;
-	top:13.47vw; /*50px*/
+	top:7.47vw; /*50px*/
 	z-index: 2;
 }
 .aim-main-img{
