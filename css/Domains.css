@@ -6,8 +6,8 @@
   height: auto; /* 835/1440 */
   left: 0vw;
   background: #476293;
-  padding-bottom: 7vw;
-  padding-top: 12.71vw;
+  padding-bottom: 5vw;
+  padding-top: 6.71vw;
 }
 
 /* .About_image_1 {
@@ -88,6 +88,11 @@
   line-height: 1.31vw; /* 19/1440	 */
   text-align: right;
   color: white;
+}
+
+.domain_description ul li{
+  list-style: none;
+  padding: 4px;
 }
 
 

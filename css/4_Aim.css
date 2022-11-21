@@ -45,11 +45,16 @@
 	top:15.63vw;
 }
 
+.aim-content ul li{
+	padding: 10px;
+	font-size: 20px;
+}
 
-.aim p{
+
+/* .aim p{
 	font-size: 1.1vw;
 	font-weight: 400;
-}
+} */
 .aim-img{
 	width:40.37vw;
 	position: absolute;
