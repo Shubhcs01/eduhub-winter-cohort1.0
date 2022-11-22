@@ -8,7 +8,7 @@
 }
 .event_details{
 	background-color: white;
-	height:35.98vw; /*600px*/
+	height:42.98vw;
 	display: flex;
 	padding: 30px;
 	justify-content: space-between;
@@ -40,32 +40,32 @@
 } */
 .event-content{
 	position: absolute;
-	left:16.77%;
-	top:5.63vw;
+    left: -8.23%;
+    top: 5.63vw;
 }
 
 
 .event_details p{
-	font-size: 1.4vw;
+	font-size: 1.7vw;
 	font-weight: 400;
 }
-/* .aim-img{
+.event-img{
 	width:40.37vw;
 	position: absolute;
-	right:4.36vw;
-	top:13.47vw;
+	right:2.36vw;
+	top:6.47vw;
 	z-index: 2;
-} */
-/* .aim-main-img{
+	border-radius: 20px;
+}
+.event-main-img{
 	position: relative;
-} */
-/* .aim-dot-2{
+}
+.event-dot-2{
 	position: absolute;
-	right:0;
-	bottom:6.77vw;
-	width:21vw;
-	
-}*/
+    right: -44px;
+    bottom: 0.77vw;
+    width: 21vw;
+}
 .event_details hr{
 	border: none;
 	border-top:5px solid #EB5310 ;

@@ -1,3 +1,6 @@
+
+// const AOS = require('aos');
+
 $(function () {
   var includes = $("[data-include]");
   $.each(includes, function () {
@@ -33,3 +36,5 @@ function modalClose(){
   var modal = document.getElementById("myModal");
   modal.style.display = "none";
 }
+
+// AOS.init({duration: 1200,});
