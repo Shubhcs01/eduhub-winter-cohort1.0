@@ -1,9 +1,22 @@
-.register {
+.big-cont{
 	color:black;
 	height: 60vw;
-	background: #FFDAB8;
+	background: white;
 	z-index: 100;
-	position: relative;
+	display: flex;
+    justify-content: space-around;
+	/* position: relative; */
+}
+
+.register {
+	/* width: 34%; */
+	/* border-radius: 20px; */
+	/* top: 1rem; */
+	color:white;
+	/* height: 40vh; */
+	background: #476293;
+	/* z-index: 100; */
+	/* position: relative; */
 	
 }
 .register h1{
@@ -19,15 +32,26 @@
 	flex-direction: column;
 }
 .register-cont .container{
-	width: 29.86%;
-	min-height: 47.72vw;
-	border: 3px solid #EB5310;
+	width: 90.86%;
+	/* min-height: 47.72vw; */
+	border: 3px solid white;
 	border-radius: 15px;
 	padding: 30px;
-	position: relative;
+	/* position: relative; */
 	overflow: hidden;
 	
 }
+
+@media screen and (max-width:1597px) {
+	.register-cont .container{
+		height:49vw;
+	}
+	.register{
+		height:36rem;
+	}
+	
+}
+
 .back-flex img{
 	vertical-align: bottom;
 	width:4.66%;
@@ -263,15 +287,7 @@ input[type=number]::-webkit-outer-spin-button {
 	width: 15.27%;
     height: 15.55vw;
 }
-@media screen and (max-width:1597px) {
-	.register-cont .container{
-		height:49vw;
-	}
-	.register{
-		height:70vw;
-	}
-	
-}
+
 @media screen and (max-width:1267px){
    .register-cont .container{
 	   height:55vw;
@@ -389,6 +405,19 @@ left:1.041vw;
 right: 1.041vw;
 opacity: 1;
 }
+
+/* @media screen and (max-width: 1597px){
+	.register {
+		height: 52vw;
+	}
+} */
+
+@media screen and (max-width: 1597px){
+.register-cont .container {
+    height: 93vh;
+}
+}
+
   @media screen and (max-width:1362px){
 	  .pop-up-img{
 		  width:36.5vw;
