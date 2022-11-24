@@ -87,7 +87,7 @@
 	   flex-direction: column;
 	   justify-content: center;
 	   align-items: center;
-	   height: 130vw;
+	   height: 139vw;
 
 	}
 	.benefits-main-content{
@@ -121,6 +121,6 @@
 		top:0;
 		left:0;
 		position: static;
-		width:75.7vw;
+		width:66.7vw;
 	}
 }

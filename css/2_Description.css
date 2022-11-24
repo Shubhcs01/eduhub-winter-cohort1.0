@@ -89,12 +89,15 @@
     line-height: normal;
     width: 100%;
   }
-  .desc-illust{
-    top: -25vw;
-    left: 0%;
-    width: 100%;
+
+  .desc-illust {
+    top: 15vw;
+    left: 10%;
+    width: 70%;
     height: 50%;
   }
+
+
   .desc-dot-illust{
     top: 13vw;
     left: 60%;
