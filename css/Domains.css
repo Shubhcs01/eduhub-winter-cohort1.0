@@ -12,10 +12,10 @@
 
 .domain_image_1 {
   position: absolute;
-  width: 34.5vw;
-  height: 36.875vw;
+  width: 31.5vw;
+  height: 30.875vw;
   left: 9.17%;
-  top: 5.736vw;
+  top: 4.736vw;
   background: url(../assets/VRboy.svg) no-repeat;
   background-size: cover;
   z-index: 1;

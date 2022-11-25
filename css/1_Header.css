@@ -127,7 +127,7 @@
   color: #476293 !important;
 }
 
-/* .PARTNER_WITH_US {
+.PARTNER_WITH_US {
   margin-top: 1.59vw;
   padding-bottom: 0.5vw;
   padding-left: 0.48vw;
@@ -136,7 +136,7 @@
   border: 0.13vw solid #476293;
   box-sizing: border-box;
   border-radius: 0.48vw;
-} */
+}
 
 /* .PARTNER_WITH_US:hover {
   background: #476293;
