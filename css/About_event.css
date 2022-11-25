@@ -46,7 +46,7 @@
 
 
 .event_details p{
-	font-size: 1.4rem;
+	font-size: 2.5vh;
 	font-weight: 400;
 }
 .event-img{
@@ -92,7 +92,7 @@
 		margin-top:36%;
 	    width: 80%;
 	    position: static;
-        padding-top: 4.041vw;
+        /* padding-top: 4.041vw; */
 	}
 	/* .event-main-img{
 		position:static;

@@ -49,8 +49,8 @@
   position: absolute;
   width: 30.4vw;
   /* height: 27.76vw; */
-  /* right: 5.5vw; */
-  top: 13vw;
+  right: 5.5vw;
+  top: 8vw;
 }
 .desc-dot-illust {
   position: absolute;
@@ -94,7 +94,7 @@
     top: 15vw;
     left: 10%;
     width: 70%;
-    height: 50%;
+    height: auto;
   }
 
 
