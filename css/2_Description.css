@@ -44,6 +44,7 @@
   font-size: 1.4vw;
   width: 48.33vw;
   line-height: 1.7vw;
+  margin-bottom: 2rem;
 }
 .desc-illust {
   position: absolute;
@@ -58,12 +59,28 @@
   left: 81%;
   top: 11.74vw;
 }
+
+.btn-reg{
+   line-height: 1.5;
+    width: 24%;
+    font-size: 1rem;
+    border-radius: 3rem;
+}
+
 @media screen and (max-width: 1024px) {
   .Description {
     flex-direction: column;
     height: 100%;
     position: relative;
   }
+
+  .btn-reg{
+    line-height: 1.5;
+    width: 38%;
+    font-size: 2rem;
+    border-radius: 3rem;
+  }
+
   .description-container{
     margin-top: 55rem;
     margin-bottom: 5rem;
