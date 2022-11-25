@@ -162,6 +162,14 @@
   .Header_navbar {
     height: 10vw;
   }
+
+  .PARTNER_WITH_US {
+    padding-bottom: 1.5vw;
+    padding-left: 1.48vw;
+    padding-top: 2.7vw;
+    padding-right: 1.48vw;
+  }
+
   .Header_logo2 {
     height: 8vw;
     width: inherit;
