@@ -1,0 +1,276 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+
+/* .fa-clipboard-list-check{
+    /* color: white; */
+/* } */
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+  margin-top: 3%;
+}
+
+
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: white;
+  top: 0;
+  bottom: 0;
+  left: 51%;
+  margin-left: -1px;
+  animation: animate 5s linear infinite;
+  animation-iteration-count: 1;
+
+}
+
+@keyframes animate {
+    0% {
+        bottom: 100%;
+    }
+
+    50% {
+        top: 0;
+    }
+
+    0% {
+        top: 100%;
+    }
+}
+
+.container {
+  padding: 15px 30px;
+  position: relative;
+  background: inherit;
+  width: 50%;
+}
+
+.container.left {
+  /* left: 0; */
+  text-align: right;
+  right: 24%;
+}
+
+.container.right {
+  left: 26%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: calc(50% - 8px);
+  right: -8px;
+  background: #ffffff;
+  border: 2px solid white;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.container.right::after {
+  left: -8px;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: calc(50% - 1px);
+  right: 8px;
+  background: white;
+  z-index: 1;
+}
+
+.container.right::before {
+  left: 8px;
+}
+
+.container .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 8px);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.container.left .date {
+  right: -75px;
+}
+
+.container.right .date {
+  left: -75px;
+}
+
+.container .icon {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 9px 0;
+  top: calc(50% - 20px);
+  background: white;
+  border: 2px solid #476293;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #476293;
+  z-index: 1;
+}
+
+.container.left .icon {
+  right: 56px;
+}
+
+.container.right .icon {
+  left: 56px;
+}
+
+.container .content {
+  padding: 30px 90px 30px 30px;
+  background: #476293;
+  position: relative;
+  border-radius: 0 500px 500px 0;
+}
+
+.container.right .content {
+  padding: 30px 30px 30px 90px;
+  border-radius: 500px 0 0 500px;
+}
+
+.container .content h2 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
+
+.container .content p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  color: white;
+}
+
+.Schedule_title{
+    color: white;
+    font-weight: 400;
+  font-size: 3.33vw;
+  text-align: center;
+  font-family: Rubik;
+  padding-top: 2rem;
+}
+
+
+.Schedule_title_underline {
+    position: absolute;
+    /* width: 12.91%;
+    height: 0vw;
+    left: 43.65%; */
+    width: 8.91%;
+    height: 0vw;
+    left: 45.65%;
+    top: 7vw;
+    border: 0.01vw solid white; /* 2/1440 */
+  }
+
+  @media (max-width: 1024px) {
+    .Schedule_title{
+    
+        font-size: 8vw;
+        z-index: 100;
+        }
+
+        .Schedule_title_underline{
+            width: 16.91%;
+            height: 0vw;
+            left: 41.65%;
+            top: 15vw;
+        }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1510px) {
+        .Schedule_title_underline{
+            width: 8.91%;
+            height: 0vw;
+            left: 45.65%;
+            top: 8vw;
+        }
+  }
+
+@media (max-width: 767.98px) {
+  .timeline::after {
+    left: 90px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 30px;
+  }
+
+  .container.right {
+    left: 0%;
+  }
+
+  .container.left::after, 
+  .container.right::after {
+    left: 82px;
+  }
+
+  .container.left::before,
+  .container.right::before {
+    left: 100px;
+    border-color: transparent white transparent transparent;
+  }
+
+  .container.left .date,
+  .container.right .date {
+    right: auto;
+    left: 15px;
+  }
+
+  .container.left .icon,
+  .container.right .icon {
+    right: auto;
+    left: 146px;
+  }
+
+  .container.left .content,
+  .container.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px 0 0 500px;
+  }
+
+  .Schedule_title{
+    font-size: 8vw;
+    z-index: 100;
+    }
+
+  .Schedule_title_underline{
+	border-top: 0.4vw solid #eb5310;
+	width: 23%;
+	top: 18vw;
+  }
+}
