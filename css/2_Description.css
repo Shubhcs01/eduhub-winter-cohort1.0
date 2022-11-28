@@ -2,7 +2,7 @@
   font-weight: bold;
   font-size: 2.1vw;
   color: black;
-  background: #FEFFFE;
+  background: #fefffe;
   display: flex;
   height: 49.44vw;
 }
@@ -53,18 +53,12 @@
   right: 5.5vw;
   top: 8vw;
 }
-.desc-dot-illust {
-  position: absolute;
-  width: 15%;
-  left: 81%;
-  top: 11.74vw;
-}
 
-.btn-reg{
-   line-height: 1.5;
-    width: 30%;
-    font-size: 1rem;
-    border-radius: 3rem;
+.btn-reg {
+  line-height: 1.5;
+  width: 30%;
+  font-size: 1rem;
+  border-radius: 3rem;
 }
 
 @media screen and (max-width: 1024px) {
@@ -74,14 +68,14 @@
     position: relative;
   }
 
-  .btn-reg{
+  .btn-reg {
     line-height: 1.5;
     width: 41%;
     font-size: 2rem;
     border-radius: 3rem;
   }
 
-  .description-container{
+  .description-container {
     margin-top: 55rem;
     margin-bottom: 5rem;
     width: 80%;
@@ -89,19 +83,19 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .underline{
+  .underline {
     margin-top: 1rem;
     width: 70%;
-    border-top: .5vw solid #476293;
+    border-top: 0.5vw solid #476293;
   }
-  .description-heading{
+  .description-heading {
     font-size: 8vw;
   }
-  .description-sub-heading{
+  .description-sub-heading {
     font-size: 5vw;
     line-height: normal;
   }
-  .desc-description{
+  .desc-description {
     font-size: 4vw;
     line-height: normal;
     width: 100%;
@@ -112,12 +106,5 @@
     left: 10%;
     width: 70%;
     height: auto;
-  }
-
-
-  .desc-dot-illust{
-    top: 13vw;
-    left: 60%;
-    width: 37vw;
   }
 }

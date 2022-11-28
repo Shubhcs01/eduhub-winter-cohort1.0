@@ -1,5 +1,4 @@
 # eduhub-winter-cohort1.0
-21 days cohort
  Eduhub Winter Cohort 1.0 is a global project which aims at helping
  evrtyone is looking for opportunities to leverage their knowledge, skills, 
  and potentials to Higher levels. We welcomes everyone to uplift their 

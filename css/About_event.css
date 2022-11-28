@@ -1,128 +1,111 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
-*{
-	font-family: 'Roboto', sans-serif;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.event_details{
-	background-color: white;
-	height:42.98vw;
-	display: flex;
-	padding: 30px;
-	justify-content: space-between;
+.event_details {
+  background-color: white;
+  height: 42.98vw;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
 }
-.event_details h1{
-	font-family: 'Rubik', sans-serif;
-	font-size: 3.3vw;
-	margin-bottom: 5px;
+.event_details h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 3.3vw;
+  margin-bottom: 5px;
 }
-.event_details-flex-cont{
-	display: flex;
-	align-items: center;
-	padding: 30px;
-	justify-content: space-between;
+.event_details-flex-cont {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  justify-content: space-between;
 }
 
 .event-main-content {
-	 width: 45.4%;
-	 position: relative;
-	 z-index:10;
-	/* height:10.48vw;  */
+  width: 45.4%;
+  position: relative;
+  z-index: 10;
+  /* height:10.48vw;  */
+}
+.event-content {
+  position: absolute;
+  left: -8.23%;
+  top: 5.63vw;
 }
 
-/* .aim-dot-1{
-    position: absolute ;
-	z-index: -1;
-	top:20px;
-	width:58.75%;
-} */
-.event-content{
-	position: absolute;
-    left: -8.23%;
-    top: 5.63vw;
+.event_details p {
+  font-size: 2.5vh;
+  font-weight: 400;
 }
-
-
-.event_details p{
-	font-size: 2.5vh;
-	font-weight: 400;
+.event-img {
+  width: 40.37vw;
+  position: absolute;
+  right: 2.36vw;
+  top: 6.47vw;
+  z-index: 2;
+  border-radius: 20px;
 }
-.event-img{
-	width:40.37vw;
-	position: absolute;
-	right:2.36vw;
-	top:6.47vw;
-	z-index: 2;
-	border-radius: 20px;
+.event-main-img {
+  position: relative;
 }
-.event-main-img{
-	position: relative;
+.event-dot-2 {
+  position: absolute;
+  right: -44px;
+  bottom: 0.77vw;
+  width: 21vw;
 }
-.event-dot-2{
-	position: absolute;
-    right: -44px;
-    bottom: 0.77vw;
+.event_details hr {
+  border: none;
+  border-top: 5px solid #ffdab8;
+  height: 2px;
+  width: 67px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .event-dot-2 {
+    position: absolute;
+    right: 28px;
+    bottom: 14.77vw;
     width: 21vw;
-}
-.event_details hr{
-	border: none;
-	border-top:5px solid #EB5310 ;
-	height:2px;
-	width:67px;
-	margin-bottom: 30px;
-}
-@media screen and (max-width:1024px) {
-	.event-dot-2{
-		position: absolute;
-		right: 28px;
-		bottom: 14.77vw;
-		width: 21vw;
-	}
-	.event_details{
-	   flex-direction: column;
-	   justify-content: center;
-	   align-items: center;
-	   height: 163vw;
-	   padding: 30px;
-
-	}
-	.event-main-content{
-		margin-top:36%;
-	    width: 80%;
-	    position: static;
-        /* padding-top: 4.041vw; */
-	}
-	/* .event-main-img{
-		position:static;
-		margin-top: 60px;
-		width:80%;
-		text-align: center;
-		margin-bottom: 70px;
-	} */
-	.event-content{
-		position: static;
-	}
-	.event_details p{
-		font-size: 3.083vw;
-	}
-	.event_details h1{
-		font-size:7.96vw;
-	}
-	.event-main-content{
-		width:80%;
-	}
-	.event_details hr{
-		width:22.69%;
-		height:1.45vw;
-	}
-	.event-img{
-		width: 69.37vw;
-		position: absolute;
-		right: 6.36vw;
-		top: -25.53vw;
-		z-index: 2;
-		border-radius: 20px;
-	}
+  }
+  .event_details {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 163vw;
+    padding: 30px;
+  }
+  .event-main-content {
+    margin-top: 36%;
+    width: 80%;
+    position: static;
+    /* padding-top: 4.041vw; */
+  }
+  .event-content {
+    position: static;
+  }
+  .event_details p {
+    font-size: 3.083vw;
+  }
+  .event_details h1 {
+    font-size: 7.96vw;
+  }
+  .event-main-content {
+    width: 80%;
+  }
+  .event_details hr {
+    width: 22.69%;
+    height: 1.45vw;
+  }
+  .event-img {
+    width: 69.37vw;
+    position: absolute;
+    right: 6.36vw;
+    top: -25.53vw;
+    z-index: 2;
+    border-radius: 20px;
+  }
 }

@@ -14,12 +14,10 @@
   position: fixed;
   align-items: center;
   justify-content: space-between;
-  /* padding: 20px; */
   background: #F6F6FE;
   height: 5.55vw;
   width: 100%;
   z-index: 1000;
-  color: #fff;
 }
 
  .Header_logo1 {
@@ -27,25 +25,12 @@
   width: 12%;
   height: 3.24vw;
   left: 9.65%;
-  /* margin-right: 1.73%; */
   margin-top: 1.18vw;
   margin-bottom: 1.18vw;
-  background: url("../assets/eduhub_logo.png")
+  background: url("https://raw.githubusercontent.com/Eduhub-Community/eduhub-winter-cohort1.0/main/assets/eduhub_logo.png")
     no-repeat;
   background-size: contain;
 }
-
-/* .Header_logo2 {
-  position: absolute;
-  width: 19.44%;
-  height: 3.73vw;
-  left: 13.47vw;
-  margin-top: 0.76vw;
-  margin-bottom: 1.18vw;
-  background: url("../assets/eduhub_logo.png")
-    no-repeat;
-  background-size: contain;
-} */
 
 .Header_nav-links {
   position: relative;
@@ -53,7 +38,6 @@
   display: flex;
   gap: 3.4vw;
   flex-direction: row;
-  /* margin-top:2.29vw; */
   margin-bottom: 1.59vw;
   list-style: none;
   text-transform: capitalize;
@@ -66,8 +50,8 @@
   height: 0.45vw;
   left: 50%;
   top: 25.25%;
-  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/1_Header_Dot.png")
-    no-repeat;
+  /* background: url() */
+    /* no-repeat; */
   background-size: contain;
   background: #476293;
   border-radius: 50%;
@@ -80,8 +64,8 @@
   height: 0.45vw;
   left: 50%;
   top: 25.25%;
-  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/1_Header_Dot.png")
-    no-repeat;
+  /* background: url("")
+    no-repeat; */
   background-size: contain;
   background: #476293;
   border-radius: 50%;
@@ -103,6 +87,14 @@
   color: #476293 !important;
 }
 
+.SCHEDULE {
+  margin-top: 2.29vw;
+}
+
+.SCHEDULE a:hover {
+  color: #476293 !important;
+}
+
 .FAQ {
   margin-top: 2.29vw;
 }
@@ -111,13 +103,6 @@
   color: #476293 !important;
 }
 
-.TEAM {
-  margin-top: 2.29vw;
-}
-
-.TEAM a:hover {
-  color: #476293 !important;
-}
 
 .CONTACT {
   margin-top: 2.29vw;
@@ -127,7 +112,7 @@
   color: #476293 !important;
 }
 
-.PARTNER_WITH_US {
+.REGISTER {
   margin-top: 1.59vw;
   padding-bottom: 0.5vw;
   padding-left: 0.48vw;
@@ -138,22 +123,10 @@
   border-radius: 0.48vw;
 }
 
-/* .PARTNER_WITH_US:hover {
-  background: #476293;
-  color: #fbfae0;
+/* .REGISTER:hover {
+  background: #fbfae0;
 } */
 
-/* .PARTNER_WITH_US_PARTNER {
-  background: #476293;
-  margin-top: 1.59vw;
-  padding-bottom: 0.5vw;
-  padding-left: 0.48vw;
-  padding-top: 0.7vw;
-  padding-right: 0.48vw;
-  border: 0.13vw solid #476293;
-  box-sizing: border-box;
-  border-radius: 0.48vw;
-} */
 .hamMenu {
   display: none;
 }
@@ -161,19 +134,6 @@
 @media screen and (max-width: 1024px) {
   .Header_navbar {
     height: 10vw;
-  }
-
-  .PARTNER_WITH_US {
-    padding-bottom: 1.5vw;
-    padding-left: 1.48vw;
-    padding-top: 2.7vw;
-    padding-right: 1.48vw;
-  }
-
-  .Header_logo2 {
-    height: 8vw;
-    width: inherit;
-    left: 17vw;
   }
   .Header_logo1 {
     height: 8vw;
@@ -200,13 +160,16 @@
     transition: 0.4s;
     border-radius: 0.3vw;
   }
+
   /* .hamMenu:hover span:nth-child(2){
 	  transform: translateX(1vw);
 	  background-color: #476293;
   } */
+
   .hamMenu.active span:nth-child(1) {
     transform: translate(0vw, 0.5vw) rotate(45deg);
   }
+
   .hamMenu.active span:nth-child(3) {
     transform: translate(-0.2vw, 1.3vw) rotate(-45deg);
   }
@@ -234,12 +197,12 @@
     border-bottom: 1vw solid #476293;
 	transition: left 1s ease-in-out;
   }
-  /* .PARTNER_WITH_US {
+  .REGISTER {
     width: auto;
     height: 8vw;
 	padding: 3vw 4vw;
 	border-radius: 1.5vw;
-  } */
+  }
   .Header_nav-links li {
     margin-top: 5vw;
   }
