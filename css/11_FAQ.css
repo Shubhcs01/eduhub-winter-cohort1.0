@@ -32,21 +32,8 @@
   height: 0vw;
   left: 9.65%; /* 139/1440 */
   top: 10.83vw; /* 156/1440 */
-  border: 0.01vw solid #eb5310; /* 2/1440 */
+  border: 0.01vw solid #ffdab8; /* 2/1440 */
 }
-
-.FAQ_dot {
-  position: absolute;
-  width: 25.69%; /* 	370/1440% */
-  height: 23.61vw; /* 	340/1440% */
-  left: 3.26%; /* 	47/1440% */
-  top: 3.4vw; /* 	49/1440 vw */
-  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/11_FAQ_Dot.png")
-    no-repeat;
-  background-size: contain;
-  /* z-index: 1; */
-}
-
 .FAQ_container {
   position: relative;
   display: grid;
@@ -97,7 +84,7 @@
   right: 1.52vw; /* 22/1440	 */
   top: 2.08vw;
   border: none;
-  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/11_FAQ_Arrow.png")
+  background: url("https://raw.githubusercontent.com/Eduhub-Community/eduhub-winter-cohort1.0/main/assets/11_FAQ_Arrow.png")
     no-repeat;
   padding-bottom: 0.0001px;
   padding-top: 0.0001px;
@@ -143,7 +130,7 @@
 	  line-height: normal;
   }
   .FAQ_title_underline{
-	border-top: 0.4vw solid #eb5310;
+	border-top: 0.4vw solid #ffdab8;
 	width: 45%;
 	top: 26vw;
   }

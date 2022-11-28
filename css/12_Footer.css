@@ -1,7 +1,8 @@
 .footer{
 	height:25.069vw;
-	background-color: #F6F6FE;
+	background-color: #476293;
 	position: relative;
+	color: white;
 }
 *{
 	font-family: 'Roboto';
@@ -45,8 +46,8 @@
 	margin-top: 70px;
 }
 .contact-4 a{
-	background-color: #476293;
-	color: white;
+	background-color: white;
+	color: #476293;
 	padding: 12px 50px;
 	text-decoration: none;
 	font-weight: bold;
@@ -58,6 +59,7 @@
 .contact-5 ul li{
 	margin-bottom: 10px;
 	cursor: pointer;
+	padding: 1rem;
 }
 .contact-5 ul li img{
   width:88.083%;
@@ -69,6 +71,16 @@
 	bottom:2.4vw;
 	left: 6.125%;
 	font-weight: 400;
+}
+
+#watermark
+{
+ position:fixed;
+ bottom:0.1rem;
+ right:2rem;
+ opacity:0.5;
+ z-index:99;
+ color:black;
 }
 
 @media screen and (max-width:1024px){
@@ -92,7 +104,7 @@
 	}
 	.contact-5 ul{
 		display: flex;
-		justify-content: space-between;
+		/* justify-content: space-between; */
 	}
 	.contact-5 ul li img{
 		width:100.15px;

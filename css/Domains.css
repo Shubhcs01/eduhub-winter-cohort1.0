@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap");
 
 .domain {
   position: relative;
@@ -20,17 +20,6 @@
   background-size: cover;
   z-index: 1;
 }
-
-/* .About_dot_image {
-  position: absolute;
-  width: 19.65%;
-  height: 17.36vw;
-  left: 31.41%;
-  top: 8.81vw;
-  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/3_About_Dot.png")
-    no-repeat;
-  background-size: contain;
-} */
 
 .domain_title {
   position: relative;
@@ -57,7 +46,7 @@
   margin-left: 60.611vw;
   /* top: 1.11vw; */
 
-  border: 0.0138vw solid white;
+  border: 0.0138vw solid #ffdab8;
 }
 
 .domain_sub_title {
@@ -75,7 +64,7 @@
   color: white;
 }
 
-.domain_sub_title li{
+.domain_sub_title li {
   line-height: 70px;
 }
 
@@ -94,8 +83,6 @@
   color: white;
 }
 
-
-
 @media screen and (max-width: 1024px) {
   .domain {
     height: 100%;
@@ -111,7 +98,7 @@
     font-size: 5rem;
     width: 80%;
     margin: auto;
-	  text-align:left;
+    text-align: left;
   }
   .domain_title_underline {
     width: 15%;
@@ -125,7 +112,7 @@
     line-height: normal;
     margin: 7vw auto 3vw;
     height: auto;
-	  text-align: left;
+    text-align: left;
   }
   .domain_image_1 {
     width: 100%;
@@ -133,20 +120,12 @@
     background-size: contain;
     left: 15.17%;
     top: 5.736vw;
-
   }
-  /* .domain_dot_image {
-    width: 32vw;
-    height: 100%;
-    left: 12%;
-    top: 12vw;
-  } */
   .domain_description {
     font-size: 4vw;
     line-height: normal;
     width: 80%;
     margin: auto;
-	  text-align: left;
+    text-align: left;
   }
-  
 }
