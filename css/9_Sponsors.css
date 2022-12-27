@@ -1,7 +1,7 @@
 .Sponsors {
   background: white;
   color: black;
-  height: 22vw;
+  height: auto;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -24,13 +24,14 @@
 .sponsor_dot_pattern2 {
   position: absolute;
   width: 15%;
-  left: 85%;
-  bottom: -15%;
-  z-index: 0;
+  left: 90%;
+  bottom: -10%;
+  z-index: 1;
 }
 .sponsor_logo {
-  width: 38vw;
-  margin-top: 4vw;
+  width: 12vw;
+  margin-top: 1vw;
+  padding: 2%;
 }
 @media screen and (max-width: 1024px) {
   .Sponsors {
@@ -44,17 +45,22 @@
     left: -8%;
   }
   .sponsor_dot_pattern2 {
-    left: 75%;
-    bottom: -22%;
+    left: 93%;
+    bottom: 2%;
+
   }
   .sponsor_heading {
     font-size: 8vw;
     z-index: 100;
+    margin-bottom: 10%;
   }
   .sponsor_logo {
-    width: 60%;
+    width: 50%;
     margin: auto 20%;
     margin-bottom: 6rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
+  }
+  #devfolio, #replit{
+    width: 40%;
   }
 }
